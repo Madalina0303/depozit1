@@ -1,0 +1,212 @@
+{
+
+    "bh":[
+        {
+          "level":"beginnerHtml",
+          "challenge":1,
+          "require":"Complete with the missing tag and text in order to create a paragraph which contains the message \"Hello world\", a heading 1 which contains text \"My first heading\", the tag for write with bold  respectively with italic ",
+          "answer1":["<p>Hello world</p>"],
+          "answer2":["<h1>My first heading</h1>"],
+          "answer3":["<b>","</b>"],
+          "answer4":["<i>","</i>"],
+          "answer":[["<p>Hello world</p>"],["<h1>My first heading</h1>"],["<b>","</b>"],["<i>","</i>"]],
+          "template":["<br><textarea id=\"ln1\"></textarea>","<br><textarea id=\"ln1\"></textarea>","<br><textarea id=\"lnmica\"></textarea><p><b>Bold text</b></p><textarea id=\"lnmica\"></textarea>","<br><textarea id=\"lnmica\"></textarea><p><i>Italic text</i></p><textarea id=\"lnmica\"></textarea>"],
+          "template1":"<textarea id=\"ln1\"></textarea>",
+          "template2":"<textarea id=\"ln1\"></textarea>",
+          "template3":"<p><textarea></textarea>Bold text<textarea></textarea></p>",
+          "template4":"<p><textarea></textarea>Bold text<textarea></textarea></p>"
+        },
+        {
+            "level":"beginnerHtml",
+            "challenge":2,
+            "require":"Complete with the missing tag and text in order to create links, visit the next page \"https://developer.mozilla.org/en-US/\" and  use the target atribut for open the document in a new window+ close the tag ",
+            "template":["<br><textarea id=\"lnmica\"></textarea><p>\"https://www.w3schools.com/\">Visit W3Schools &lt/a&gt</p>","<p> &lta href=</p><textarea id=\"ln1\"></textarea><p>Visit MDN &lt/a&gt</p>","<p>&lta href=\"https://www.w3schools.com/\"</p><textarea id=\"ln1\"></textarea><p>Visit the page &lt/a&gt</p>","<p>&lta href=\"https://www.w3schools.com/\">Visit W3Schools.com!</p><textarea id=\"lnmica\"></textarea>"],
+            "answer":[["<a href="],["\"https://developer.mozilla.org/en-US/\">"],["target=\"_blank\">"],["</a>"]]
+        
+        },
+        {
+            "level":"beginnerHtml",
+            "challenge":3,
+            "require":"Complete with the missing tag and text in order to display images, use the following image address:\"https://images.unsplash.com/photo-1582614378336-15327b1f6a0d\", \"random description \" for the alt atribut and 400 for width and height value",
+            "template":["<br><textarea id=\"lnmica\"></textarea><p>\"photo.jpg\" alt=\"description\" width=\"500\" height=\"600\"&gt</p>",
+                       "<p>&lt img src=</p><textarea id=\"ln1\"></textarea><p>alt=\"sun\"&gt</p>",
+                       "<p>&ltimg src=\"random.png\"</p><textarea id=\"ln1\"></textarea>",
+                       "<p>&ltimg src=\"random2.png\" alt=\"random\" width=</p><textarea id=\"lnspec\"></textarea>"],
+            "answer":[["<img src="],["\"https://images.unsplash.com/photo-1582614378336-15327b1f6a0d\""],["alt=\"random description\">"],["\"400\" height:\"400\">"]]
+        }
+    ],
+    "ih":[
+        {
+         "level":"intermediateHtml",
+         "challenge":1,
+         "require":"Complete with the missing tag and text in order to create tables using the following headings:\"First name\" and \"Last name\".For filling the rows with use \"Cici Elephant\"",
+         "template":["<br><textarea id=\"lnspec\"></textarea><p>&lt tr &gt</p><p>&lt th &gt Column1 &lt /th &gt<p><p>&lt th &gt Column2 &lt /th &gt<p><p> &lt /tr &gt<p><textarea id=\"lnspec\"></textarea>",
+                     "<p>&lt table &gt</p><textarea id=\"lnmica_subtire\"></textarea><br><textarea id=\"lnmica_subtire\"></textarea><p>Column1</p><textarea id=\"lnmica_subtire\"></textarea><br><textarea id=\"lnmica_subtire\"></textarea><p>&lt /table &gt</p>",
+                    "<p>&lt table &gt</p> <p>&lt tr &gt</p><textarea id=\"ln1\"></textarea><br><textarea id=\"ln1\"></textarea> <p>&lt /tr &gt</p>",
+                    "<p>&lt tr &gt</p> <textarea id=\"ln1\"></textarea> <br><textarea id=\"ln1\"></textarea><p> &lt /tr &gt<p><p>&lt /table &gt</p>"
+                    ],
+
+         "answer":[["<table>","</table>"],["<tr>","<th>","</th>","</tr>"],["<th>First name</th>","<th>Last name</th>"],["<td>Cici</td>","<td>Elephant</td>"]]
+        },
+        {
+            "level":"intermediateHtml",
+            "challenge":2,
+            "require":"Complete with the missing tag for unordered list and use following text: \"Giraffe \",\"Rhino \" for ordered list and create a description list with \"Rhino\" as a term list and \"animal with large horn\" as description for the Rhino",
+            "template":["<br><textarea id=\"lnsubtire\"></textarea> <br><textarea id=\"lnsubtire\"></textarea>   <p style=\"margin:5px;padding:0\">Lion</p> <textarea id=\"lnsubtire\"></textarea><br><textarea id=\"lnsubtire\"></textarea><p style=\"margin:5px;padding:0\">Elephant</p> <textarea id=\"lnsubtire\"></textarea><br><textarea id=\"lnsubtire\"></textarea> ",
+                        "<p style=\"margin:5px;padding:0\">&lt ol &gt</p> <p style=\"margin:5px;padding:0\">&lt li &gt </p> <textarea id=\"lnspec\"></textarea><p style=\"margin:5px;padding:0\">&lt /li &gt </p><p style=\"margin:5px;padding:0\">&lt li &gt </p> <textarea id=\"lnspec\"></textarea> <p style=\"margin:5px;padding:0\">&lt /li &gt </p><p style=\"margin:5px;padding:0\">&lt /ol &gt </p>",
+                        "<p style=\"margin:5px;padding:0\">&lt dl &gt</p>  <p style=\"margin:5px;padding:0\">&lt dt &gt</p><p style=\"margin:5px;padding:0\">Giraffe</p><p style=\"margin:5px;padding:0\">&lt /dt &gt</p><textarea id=\"lnsubtire\"></textarea><p style=\"margin:5px;padding:0\">-animal with tall neck</p><textarea id=\"lnsubtire\"></textarea><p style=\"margin:5px;padding:0\">&lt /dl &gt</p>",
+                        "<p style=\"margin:5px;padding:0\">&lt dl &gt</p> <textarea id=\"lnsubtire\"></textarea> <br> <textarea id=\"ln1\"></textarea> <br><textarea id=\"lnsubtire\"></textarea> <br> <textarea id=\"lnsubtire\"></textarea><br><textarea id=\"ln1\"></textarea><br><textarea id=\"lnsubtire\"></textarea> <p style=\"margin:5px;padding:0\">&lt /dl &gt</p>"   
+                    ],
+            "answer":[["<ul>","<li>","</li>","<li>","</li>","</ul>"],["Giraffe","Rhino"],["<dd>","</dd>"],["<dt>","Rhino","</dt>","<dd>","animal with large horn","</dd>"]]
+        },
+        {
+            "level":"intermediateHtml",
+            "challenge":3,
+            "require":"Complete with the block-level element: div and section + inline-level element: span and textarea",
+            "template":["<br><textarea id=\"lnsubtire\"></textarea><p> &lt p &gt A paragraph inside a div &lt /p &gt</p><textarea id=\"lnsubtire\"></textarea>",
+                        "<br><textarea id=\"lnsubtire\"></textarea><h5> &lt h5 &gt A h5 inside a section elment &lt /h5 &gt</h5><textarea id=\"lnsubtire\"></textarea>",
+                        "<br><textarea id=\"lnsubtire\"></textarea><h3> &lt h3 &gt A h3 inside a span element &lt /h3 &gt</h3><textarea id=\"lnsubtire\"></textarea>",
+                        "<br><textarea id=\"lnsubtire\"></textarea><p> &lt p &gt A paragraph inside a textarea &lt /p &gt</p><textarea id=\"lnsubtire\"></textarea>"
+                     ],
+            "answer":[["<div>","</div>"],["<section>","</section>"],["<span>","</span>"],["<textarea>","</textarea>"]]
+        }
+    ],
+    "ah":[
+        {
+            "level":"advancedHtml",
+            "challenge":1,
+            "require":"Complete the html elements with the classes and id attributes.For the first and last exercises use \"animal\"  respectively \"jungle\" as unique identifier. For the others white spaces use the following name: \"species\" ",
+            "template":["<p> &lt h1 </p><textarea id=\"lnspec\"></textarea><h1> The animals live in jungle </h1> <p> &lt/h1 &gt</p>",
+                        "<p> &lt div </p><textarea id=\"ln1\"></textarea><p> &lt img src=\"species.jpg\" alt= \"species\" &gt</p> <p> &lt /div &gt </p>",
+                        "<p> &lt span </p><textarea id=\"lnspec\"></textarea><p> In jungle live different species of animals: parrot, monkey,snake, jaguar. </p> <p> &lt /span &gt </p>",
+                        "<p> &lt section </p><textarea id=\"lnspec\"></textarea><h1> &lt h1 &gt  The animals live in jungle &lt /h1 &gt </h1> <p> &lt/section &gt</p>"
+                      ],
+            "answer":[["id=\"animal\">"],["class=\"species\">"],["class=\"species\">"],["id=\"jungle\">"]]          
+        },
+        {
+            "level":"advancedHtml",
+            "challenge":2,
+            "require":"In the first form add an input field with the type \"button\" and the value \"ok\". For the next one define a checkbox with name+ id \"tiger \" and the label \"Tigers run fast. \" . The 3rd require is to complete the form with a text input having \"favorit_animal\" as id. In the last one you must submit the form using \"submit \" as value",
+            "template":["<p>&lt form &gt</p><textarea id=\"ln1\"></textarea><p>&lt /form &gt</p>",
+                        "<p>&lt form action=\"/action.php\"&gt</p><textarea id=\"ln11\"></textarea><br><textarea id=\"ln11\"></textarea><p> &lt input type=\"submit\" value=\"submit\" &gt </p><p>&lt /form &gt</p>",
+                        "<p>&lt form action=\"/action.php\"&gt</p><p>&lt label for=\"favorit_animal\">My favorite animal:&lt /label &gt &lt br &gt </p><textarea id=\"lnspec\"></textarea><p> &lt input type=\"submit\" value=\"submit\" &gt </p><p>&lt /form &gt</p>",
+                        "<p>&lt form action=\"/action.php\"&gt</p><p>&lt label for=\"Secret code\">Type your secret code bellow:&lt /label &gt &lt br &gt </p> <p> &lt input type=\"password\" &gt </p> <textarea id=\"lnspec\"></textarea><p>&lt /form &gt</p> "
+                    ],
+            "answer":[["<input type=\"button\" value=\"ok\">"],["<input type=\"checkbox\" id=\"tiger\" name=\"tiger\">","<label for=\"tiger\">Tigers run fast.</label>"],["<input type=\"text\" id=\"favorite_animal\">"],["<input type=\"submit\" value=\"submit\">"]]     
+        },
+        {
+            "level":"advancedHtml",
+            "challenge":3,
+            "require":"Complete the missing code for include the \"style.css\" file, the \"scr.js\" file respectively \"action.php\" file. For the last exercise include a php section and print the next message\"Great job!\"",
+            "template":["<p> &lt head &gt </p> <p> &lt meta charset=\"UTF-8\" &gt </p><p> &lt meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" &gt </p><p> &lt meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" &gt </p><textarea id=\"lnspec\"></textarea><p>&lt title &gt HTML-Level &lt /title &gt </p> <p>&lt/head &gt</p>",
+                        "<p> &lt body &gt </p> <textarea id=\"ln1\"></textarea> <p> &lt /body &gt </p>",
+                        "<p> &lt body &gt </p> <textarea id=\"ln1\"></textarea> <p> &lt /body &gt </p>",
+                        "<p> &lt body &gt </p> <textarea id=\"lnmica\"></textarea> <br> <textarea id=\"ln1\"></textarea> <br><textarea id=\"lnmica\"></textarea> <p> &lt /body &gt </p>"
+                       ],
+            "answer":[["<link rel=\"stylesheet\" href=\"style.css\">"],["<script src=\"src.js\"></script>"],["<?php include('action.php') ?>"],["<?php","echo \"Great job!\";", "?>"]]
+        }
+    ],
+    "bc":[
+        {
+            "level":"beginnerCss",
+            "challenge":1,
+            "require":" <p style=\"width:40vw\">For a paragraph use CSS property and make the text have the red color,and the background green</p>",
+            "template":"<p>p{</p><textarea></textarea><br><textarea></textarea><p>}</p>",
+            "answer":["color:red;","background-color:green;"],
+            "templateBoard":[["<p class=\"model\">Welcome in jungle adventure!</p>" ],
+                            []
+                           ]         
+        },
+        {
+          
+            "level":"beginnerCss",
+            "challenge":2,
+            "require":" <p style=\"width:40vw\">Let's make something magic ,In order to make a rectangle to appear  set the width at 20px and height at 30px.</p>",
+            "template":"<p>.rectangle{</p><textarea></textarea><br><textarea></textarea><p>}</p>",
+            "answer":["width:20px;","height:30px;"],
+            "templateBoard":[["<div class=\"model\" style=\"background-color:green;\"></div>" ],
+                            []
+                           ]     
+        },
+        {
+            "level":"beginnerCss",
+            "challenge":3,
+            "require":"For the rectangle, set the following margins: top->3px left:50px",
+            "template":"<p>.rectangle{</p><textarea></textarea><br><textarea></textarea><p>}</p>",
+            "answer":["margin-top:3px;","margin-left:50px;"],
+            "templateBoard":[["<div class=\"model\" style=\"background-color:green;width:20px;height:30px;\"></div>" ],
+                            []
+                           ]    
+        }
+
+    ],
+    "ic":[
+        {
+            "level":"intermediateCss",
+            "challenge":1,
+            "require":" <p style=\"width:40vw\">Select all the monkey from the animal div<p> <p style=\"width:40vw\"> &lt div class=\"animals\" &gt </p><p style=\"width:40vw\"> &lt monkey /&gt </p><p style=\"width:40vw\"> &lt lion /&gt </p><p style=\"width:40vw\"> &lt /div &gt </p>",
+            "template":"<br><textarea></textarea>",
+            "answer":["monkey"],
+            "templateBoard":[["<img class=\"anim\" src=\"../../public/images/monkey.png \"   alt= \"monkey\" style=\"width:5em;height:8em;\">","<img src=\"../../public/images/lion.png\" alt= \"lion\"style=\"width:5em;height:8em\">"] ,
+                            []
+                           ]         
+        },
+        {
+          
+            "level":"intermediateCss",
+            "challenge":2,
+            "require":"<p style=\"width:40vw\">Select the element with a specific id: king <p> <p style=\"width:40vw\"> &lt div class=\"animals\" &gt </p><p style=\"width:40vw\"> &lt lion id=\"king \" /&gt </p><p style=\"width:40vw\"> &lt lion /&gt </p><p style=\"width:40vw\"> &lt /div &gt </p>",
+            "template":"<textarea></textarea>",
+            "answer":["#king"],
+            "templateBoard":[["<img class=\"anim\" src=\"../../public/images/lion.png \"   alt= \"lion\" style=\"width:5em;height:8em;\">","<img src=\"../../public/images/lion.png\" alt= \"lion\"style=\"width:5em;height:8em\">" ],
+                            []
+                           ]     
+        },
+        {
+            "level":"intermediateCss",
+            "challenge":3,
+            "require":"<p style=\"width:40vw\">Select all \"lions\" inside \"carnivors\" <p> <p style=\"width:40vw\"> &lt div class=\"animals\" &gt </p><p style=\"width:40vw\"> &lt carnivours &gt </p><p style=\"width:40vw\"> &lt lion /&gt </p> <p style=\"width:40vw\"> &lt tiger /&gt </p><p style=\"width:40vw\"> &lt /carnivours &gt </p><p style=\"width:40vw\"> &lt /div &gt </p>",
+            "template":"<textarea></textarea>",
+            "answer":["carnivours lion"],
+            "templateBoard":[["<img class=\"anim\" src=\"../../public/images/lion.png \"   alt= \"monkey\" style=\"width:5em;height:8em;\">","<img src=\"../../public/images/tiger.png\" alt= \"tiger\"style=\"width:5em;height:8em\">" ],
+                            []
+                           ]    
+        }
+
+
+    ],
+    "ac":[{
+        "level":"advancedCss",
+        "challenge":1,
+        "require":" <p style=\"width:40vw\">Use justify-content to help the monkey to get to the banana <p> ",
+        "template":"<p>#jungle{</p><p>display:flex;</p><textarea></textarea><p>}</p>",
+        "answer":["justify-content:flex-end;"],
+        "templateBoard":[["<img  src=\"../../public/images/monkey.png \"   alt= \"monkey\" style=\"width:5em;height:8em;margin-top:1em\">"] ,
+                        ["<img src=\"../../public/images/branch.png\" alt= \"banana\"style=\"width:8em;height:4em\">"]
+                       ]         
+    },
+    {
+      
+        "level":"advancedCss",
+        "challenge":2,
+        "require":" <p style=\"width:40vw\">Use justify-content to help the lion to get on the grass <p> ",
+        "template":"<p>#jungle{</p><p>display:flex;</p><textarea></textarea><p>}</p>",
+        "answer":["justify-content:center;"],
+        "templateBoard":[["<img  src=\"../../public/images/lion.png \"   alt= \"lion\" style=\"width:5em;height:8em;\">"] ,
+                        ["<img src=\"../../public/images/grass.png\" alt= \"grass\"style=\"width:8em;height:4em;margin-top:4em;\">"]
+                       ]         
+    },
+    {
+        "level":"advancedCss",
+        "challenge":3,
+        "require":" <p style=\"width:40vw\">Use justify-content to help the lions to get on the grass <p> ",
+        "template":"<p>#jungle{</p><p>display:flex;</p><textarea></textarea><p>}</p>",
+        "answer":["justify-content:space-around;"],
+        "templateBoard":[["<img  src=\"../../public/images/lion.png \"   alt= \"lion\" style=\"width:5em;height:8em;\">","<img  src=\"../../public/images/lion.png \"   alt= \"lion\" style=\"width:5em;height:8em;\">"] ,
+                        ["<img src=\"../../public/images/grass.png\" alt= \"grass\"style=\"width:8em;height:4em;margin-top:4em;\">","<img src=\"../../public/images/grass.png\" alt= \"grass\"style=\"width:8em;height:4em;margin-top:4em;\">"]
+                       ]   
+    }
+
+    ]
+
+}
